@@ -228,7 +228,6 @@ void mycd(char *newdir_raw){
 		newdir[tn+cn]='\0';
 	}
 	// printf("switch to %s\n",newdir);
-    printf("%s\n",newdir);
 	if(chdir(newdir)==-1){
 		printf("could not change to %s\n",newdir);
 	}
